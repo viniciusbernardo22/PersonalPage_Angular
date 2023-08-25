@@ -1,0 +1,7 @@
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li *ngFor="let header of headerOptions | async">
+      <a [href]="header.href">{{ header.title }}</a>
+    </li>
+  </ul>
+</nav>
