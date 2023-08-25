@@ -15,6 +15,6 @@ export const headerOptions: HeaderOptions[] = [
   },
   {
     title: 'CV',
-    href: '',
+    href: 'https://drive.google.com/file/d/1X_Zia_CN8N2dxWKMW2Y6lgfZUHhFEHVD/view?usp=sharing',
   },
 ];
