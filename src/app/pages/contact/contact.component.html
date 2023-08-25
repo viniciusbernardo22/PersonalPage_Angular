@@ -5,32 +5,11 @@
   </div>
   <div class="contact-links">
     <a
-      href="https://www.facebook.com/vinicius.bernardo.16"
+      *ngFor="let contact of contacts | async"
+      [href]="contact.href"
       target="_blank"
       class="btn contact-details"
-      ><i class="fab fa-facebook-square"></i> Facebook</a
-    >
-    <a
-      id="profile-link"
-      href="https://github.com/viniciusbernardo22"
-      target="_blank"
-      class="btn contact-details"
-      ><i class="fab fa-github"></i> GitHub</a
-    >
-    <a
-      href="https://www.linkedin.com/in/vin%C3%ADcius-bernardo-97b45a164/"
-      target="_blank"
-      class="btn contact-details"
-      ><i class="fab fa-linkedin"></i> Linkedin</a
-    >
-    <a href="mailto:vini383@gmail.com" class="btn contact-details"
-      ><i class="fas fa-at"></i> E-mail</a
-    >
-    <a
-      href="https://api.whatsapp.com/send?phone=5515991644070"
-      target="_blank"
-      class="btn contact-details"
-      ><i class="fab fa-whatsapp"></i> WhatsApp</a
+      ><fa-icon [icon]="contact.icon"></fa-icon> {{ contact.name }}</a
     >
   </div>
 </section>
