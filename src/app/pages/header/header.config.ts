@@ -14,11 +14,7 @@ export const headerOptions: HeaderOptions[] = [
     href: '#contact',
   },
   {
-    title: 'Download CV',
-    href: '',
-  },
-  {
-    title: '',
+    title: 'CV',
     href: '',
   },
 ];
