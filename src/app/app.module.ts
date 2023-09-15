@@ -4,21 +4,13 @@ import {
   FaIconLibrary,
   FontAwesomeModule,
 } from '@fortawesome/angular-fontawesome';
-
 import {
   faFacebook,
   faGithub,
   faLinkedin,
-  faMedium,
-  faStackOverflow,
   faThreads,
   faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons';
-import {
-  faCheckSquare as farCheckSquare,
-  faSquare as farSquare,
-} from '@fortawesome/free-regular-svg-icons';
-import { faCheckSquare, faSquare } from '@fortawesome/free-solid-svg-icons';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,8 +18,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
+import { TrajectoryComponent } from './pages/trajectory/trajectory.component';
 import { TyperComponent } from './pages/typer/typer.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,8 +29,14 @@ import { TyperComponent } from './pages/typer/typer.component';
     TyperComponent,
     ProjectsComponent,
     ContactComponent,
+    TrajectoryComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    FontAwesomeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
