@@ -10,12 +10,12 @@ export class TyperComponent implements OnInit {
   ngOnInit(): void {
     const options = {
       strings: [
-        'Olá, meu nome é Vinicius.',
-        'Desenvolvo por paixão.',
-        'Me dê um problema, te dou uma solução.',
+        'Hi, my name is Vinicius.',
+        'Build Software is my passion.',
+        'Solve problems is my mission.',
       ],
-      typeSpeed: 50,
-      backSpeed: 50,
+      typeSpeed: 30,
+      backSpeed: 30,
       showCursor: true,
       cursorChar: '|',
       loop: true,

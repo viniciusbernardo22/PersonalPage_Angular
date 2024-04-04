@@ -2,7 +2,7 @@ import { HeaderOptions } from 'src/app/@backoffice/models/headerOptions';
 
 export const headerOptions: HeaderOptions[] = [
   {
-    title: 'Sobre',
+    title: 'About',
     href: '#welcome-section',
   },
   {
@@ -10,11 +10,11 @@ export const headerOptions: HeaderOptions[] = [
     href: '#projects',
   },
   {
-    title: 'Contato',
+    title: 'Contact',
     href: '#contact',
   },
   {
     title: 'CV',
-    href: 'https://drive.google.com/file/d/1X_Zia_CN8N2dxWKMW2Y6lgfZUHhFEHVD/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1KaPIzu5bUEeQmkjGdaP-HWmJyWPZlAVX/view?usp=sharing',
   },
 ];
