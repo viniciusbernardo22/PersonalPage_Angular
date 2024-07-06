@@ -1,4 +1,4 @@
-import { ContactOptions } from 'src/app/models/contactOptions';
+import { ContactOptions } from 'src/app/types/contactOptions';
 
 export const contactConfig: ContactOptions[] = [
   {

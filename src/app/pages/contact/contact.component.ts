@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { ContactOptions } from 'src/app/models/contactOptions.js';
+import { ContactOptions } from 'src/app/types/contactOptions.js';
 
 import { contactConfig } from './contact.config.ts';
 

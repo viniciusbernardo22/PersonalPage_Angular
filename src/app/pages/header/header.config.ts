@@ -1,4 +1,4 @@
-import { HeaderOptions } from 'src/app/models/headerOptions';
+import { HeaderOptions } from 'src/app/types/headerOptions';
 
 export const headerOptions: HeaderOptions[] = [
   {
