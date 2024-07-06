@@ -21,6 +21,8 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { TrajectoryComponent } from './pages/trajectory/trajectory.component';
 import { TyperComponent } from './pages/typer/typer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { GithubService } from './services/github.service';
+import { HttpClientModule } from  '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,8 +38,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     AppRoutingModule,
     FontAwesomeModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [AppComponent],
 })
 export class AppModule {
