@@ -1,4 +1,4 @@
-import { HeaderOptions } from 'src/app/@backoffice/models/headerOptions';
+import { HeaderOptions } from 'src/app/models/headerOptions';
 
 export const headerOptions: HeaderOptions[] = [
   {

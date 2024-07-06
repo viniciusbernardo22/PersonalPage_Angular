@@ -1,4 +1,4 @@
-import { ProjectOptions } from 'src/app/@backoffice/models/projectOptions';
+import { ProjectOptions } from 'src/app/models/projectOptions';
 
 const gitBaseUrl: string = 'https://viniciusbernardo22.github.io/';
 const imagePath: string = '../../../assets/imgs/';

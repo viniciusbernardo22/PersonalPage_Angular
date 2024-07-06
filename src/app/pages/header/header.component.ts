@@ -1,4 +1,4 @@
-import { HeaderOptions } from 'src/app/@backoffice/models/headerOptions';
+import { HeaderOptions } from 'src/app/models/headerOptions';
 import { headerOptions } from './header.config';
 import { Component } from '@angular/core';
 import { Observable, from, of } from 'rxjs';

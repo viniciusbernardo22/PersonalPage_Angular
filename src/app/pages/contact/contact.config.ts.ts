@@ -1,4 +1,4 @@
-import { ContactOptions } from 'src/app/@backoffice/models/contactOptions';
+import { ContactOptions } from 'src/app/models/contactOptions';
 
 export const contactConfig: ContactOptions[] = [
   {
