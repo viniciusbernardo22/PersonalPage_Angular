@@ -1,4 +1,4 @@
-export interface ProjectOptions {
+export type ProjectOptions = {
   id: number;
   githubLink: string;
   src: string;

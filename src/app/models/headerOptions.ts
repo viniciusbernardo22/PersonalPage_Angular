@@ -1,4 +1,4 @@
-export interface HeaderOptions {
+export type HeaderOptions = {
   title: string;
   href: string;
 }

@@ -1,6 +1,6 @@
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
-export interface ContactOptions {
+export type ContactOptions = {
   id: number;
   icon: IconProp;
   href: string;
