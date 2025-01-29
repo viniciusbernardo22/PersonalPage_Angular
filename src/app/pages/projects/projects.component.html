@@ -2,23 +2,25 @@
   <h2 class="projects-section-header">Some personal projects...</h2>
 
   <div class="projects-grid">
-    <a
-      *ngFor="let project of Projects | async"
-      [href]="project.githubLink"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        [src]="project.src"
-        [alt]="project.projectTitle"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        {{ project.projectTitle }}
-        <span class="code">&#47;&gt;</span>
-      </p>
-    </a>
+
+    @for (project of (Projects | async); track $index) {
+      <a
+        [href]="project.githubLink"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          [src]="project.src"
+          [alt]="project.projectTitle"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          {{ project.projectTitle }}
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+    }
   </div>
 
   <a
