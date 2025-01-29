@@ -1,5 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { TrajectoryComponent } from './trajectory.component';
 
 describe('TrajectoryComponent', () => {
