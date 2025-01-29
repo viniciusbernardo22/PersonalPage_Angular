@@ -4,17 +4,9 @@ import { ProjectsComponent } from './projects.component';
 
 describe('ProjectsComponent', () => {
   let component: ProjectsComponent;
-  let fixture: ComponentFixture<ProjectsComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ ProjectsComponent ]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(ProjectsComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+  beforeEach(() => {
+    component = new ProjectsComponent();
   });
 
   it('should create', () => {
