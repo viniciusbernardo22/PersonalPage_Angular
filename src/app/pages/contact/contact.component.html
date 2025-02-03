@@ -4,12 +4,13 @@
     <p>Contact information bellow :)</p>
   </div>
   <div class="contact-links">
-    <a
-      *ngFor="let contact of contacts | async"
-      [href]="contact.href"
-      target="_blank"
-      class="btn contact-details"
-      ><fa-icon [icon]="contact.icon"></fa-icon> {{ contact.name }}</a
-    >
-  </div>
-</section>
+    @for (contact of contacts | async; track contact) {
+      <a
+        [href]="contact.href"
+        target="_blank"
+        class="btn contact-details"
+        ><fa-icon [icon]="contact.icon"></fa-icon> {{ contact.name }}</a
+        >
+      }
+    </div>
+  </section>
